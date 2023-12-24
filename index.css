@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+section{
+    display: flex;
+}
+.section{
+    margin: 10px;
+    font-size: 18px;
+    background-color: rgb(154, 140, 168);
+    border: 2px solid black;
+    width: auto;
+}
+.fpara{
+    background-color: rgb(244, 157, 215);
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px;
+    width: max-content;
+    margin-left: auto;
+    margin-top: 0;
+
+}
+
+p:nth-child(even){
+    margin: 10px;
+}
